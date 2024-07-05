@@ -30,7 +30,9 @@ function ArticlePreview({ article }) {
             <span className="body body--micro">678 Likes</span>
           </div>
         </div>
-        <Link to="/article" className="preview__link">Read More</Link>
+        <Link to="/article" className="preview__link">
+          Read More
+        </Link>
       </div>
     </li>
   );

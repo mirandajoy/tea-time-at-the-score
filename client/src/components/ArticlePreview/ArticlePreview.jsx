@@ -25,11 +25,13 @@ function ArticlePreview({ article }) {
         <div className="preview__icon-wrapper">
           <div className="preview__icon-container">
             <img className="preview__icon" src={chat} />
-            <span className="body body--micro">234 Comments</span>
+            <span className="body body--micro">
+              {article.comments} comments{" "}
+            </span>
           </div>
           <div className="preview__icon-container">
             <img className="preview__icon" src={thumbs_up} />
-            <span className="body body--micro">678 Likes</span>
+            <span className="body body--micro">{article.likes} Likes</span>
           </div>
         </div>
         <Link to="/article" className="preview__link">

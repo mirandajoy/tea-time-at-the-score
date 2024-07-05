@@ -14,9 +14,11 @@ function ArticlePreview({ article }) {
         />
       </div>
       <div className="preview__content">
-        <h2 className="header header--secondary preview__title">
-          {article.title}
-        </h2>
+        <Link to="/article" className="preview__link">
+          <h2 className="header header--secondary preview__title">
+            {article.title}
+          </h2>
+        </Link>
         <p className="body body--light body--small">{article.preview}</p>
       </div>
       <div className="preview__action-container">

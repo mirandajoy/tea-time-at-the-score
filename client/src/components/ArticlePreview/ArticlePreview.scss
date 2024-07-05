@@ -4,5 +4,23 @@
 
 .preview {
     @include responsive-padding;
-    background-color: $color-background-content-med;
+    @include flex;
+    @include responsive-gap;
+    border-radius: $border-radius;
+    border: $border-style;
+    &__image {
+        max-width: 10rem;
+    }
+    &__content {
+        width: 80%;
+    }
+    &__title {
+        padding-bottom: $space-small;
+    }
+    &__link {
+        display: block;
+        color: $color-brand-primary;
+        font-size: $font-size-body-small;
+        padding-top: $space-small;
+    }
 }

@@ -1,110 +1,32 @@
-{
-  "athletes": [
-    {
-      "id": 2,
-      "name": "Other",
-      "team": "Los Angeles Lakers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "lifestyleNews": [
-        {
-          "id": 101,
-          "title": "Other",
-          "source": "Sports Illustrated",
-          "date": "2024-07-01",
-          "preview": "NBA superstar Other continues his philanthropic efforts…",
-          "imageURL": "https://example.com/lebron_school.jpg"
-        }
-      ],
-      "upcomingEvents": [
-        {
-          "id": 201,
-          "title": "Other",
-          "date": "2024-07-10",
-          "time": "20:00:00",
-          "description": "Join Other as he revisits his most memorable NBA moments",
-          "thumbnailURL": "https://example.com/lebron_highlight_thumbnail.jpg"
-        }
-      ],
-      "liveEvents": [
-        {
-          "id": 301,
-          "title": "Other",
-          "host": "Other",
-          "date": "2024-07-10",
-          "time": "20:00:00",
-          "description": "Join Other as he provides commentary on the historic 2016 NBA Finals",
-          "viewCount": 500000,
-          "chatEnabled": true,
-          "chatMessages": [
-            {
-              "userID": 12345,
-              "username": "BasketballFan23",
-              "message": "That block in Game 7 was incredible!",
-              "timestamp": "2024-07-10 20:30:00"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "name": "LeBron James",
-      "team": "Los Angeles Lakers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "lifestyleNews": [
-        {
-          "id": 101,
-          "title": "LeBron James Opens New School in Akron",
-          "source": "Sports Illustrated",
-          "date": "2024-07-01",
-          "preview": "NBA superstar LeBron James continues his philanthropic efforts…",
-          "imageURL": "https://example.com/lebron_school.jpg"
-        }
-      ],
-      "upcomingEvents": [
-        {
-          "id": 201,
-          "title": "LeBron’s Career Highlights",
-          "date": "2024-07-10",
-          "time": "20:00:00",
-          "description": "Join LeBron as he revisits his most memorable NBA moments",
-          "thumbnailURL": "https://example.com/lebron_highlight_thumbnail.jpg"
-        }
-      ],
-      "liveEvents": [
-        {
-          "id": 301,
-          "title": "NBA Finals 2016 Rewatch: Cavaliers vs Warriors",
-          "host": "LeBron James",
-          "date": "2024-07-10",
-          "time": "20:00:00",
-          "description": "Join LeBron as he provides commentary on the historic 2016 NBA Finals",
-          "viewCount": 500000,
-          "chatEnabled": true,
-          "chatMessages": [
-            {
-              "userID": 12345,
-              "username": "BasketballFan23",
-              "message": "That block in Game 7 was incredible!",
-              "timestamp": "2024-07-10 20:30:00"
-            }
-          ]
-        }
-      ]
-    }
-
-  ],
-  "userPreferences": {
-    "userId": 12345,
-    "followedAthletes": [1, 2],
-    "followedTeams": ["Los Angeles Lakers", "Cleveland Cavaliers"],
-    "followedSports": ["Basketball", "Tennis"],
-    "notificationSettings": {
-      "lifestyleNews": true,
-      "liveEvents": true,
-      "socialMedia": false
-    }
+[
+  {
+    "id": 1,
+    "title": "LeBron James Opens New School in Akron",
+    "source": "Sports Illustrated",
+    "date": "2024-07-01",
+    "preview": "NBA superstar LeBron James continues his philanthropic efforts…",
+    "imageURL": "https://example.com/lebron_school.jpg",
+    "athlete": "LeBron James",
+    "type": "lifestyleNews"
+  },
+  {
+    "id": 2,
+    "title": "Stephen Curry Hosts Charity Golf Tournament",
+    "source": "ESPN",
+    "date": "2024-07-02",
+    "preview": "NBA star Stephen Curry raises funds for education through a charity golf event…",
+    "imageURL": "https://example.com/curry_golf.jpg",
+    "athlete": "Stephen Curry",
+    "type": "lifestyleNews"
+  },
+  {
+    "id": 3,
+    "title": "Kevin Durant Launches Youth Basketball Camp",
+    "source": "Bleacher Report",
+    "date": "2024-07-03",
+    "preview": "Kevin Durant inspires young athletes at his annual basketball camp…",
+    "imageURL": "https://example.com/durant_camp.jpg",
+    "athlete": "Kevin Durant",
+    "type": "lifestyleNews"
   }
-}
+]

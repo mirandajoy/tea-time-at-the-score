@@ -14,6 +14,11 @@
 .liveVideo--display {
     width: 45%;
     height: auto;
+    transition: filter 0.3s ease;
+    &:hover {
+        filter: grayscale(100%);
+    }
+    
 }
 
 .liveVideo--widget {

@@ -5,7 +5,7 @@
 .preview {
     @include responsive-padding;
     @include flex(flex-start);
-    row-gap: $space-small;
+    row-gap: $space-standard;
     border-bottom: $border-style-dark;
     background-color: $color-background-content-med;
     box-sizing: border-box;

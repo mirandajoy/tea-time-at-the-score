@@ -1,13 +1,17 @@
 [
   {
     "id": 1,
-    "title": "LeBron James Opens New School in Akron",
-    "source": "Sports Illustrated",
-    "date": "2024-07-01",
-    "preview": "NBA superstar LeBron James continues his philanthropic efforts…",
-    "imageURL": "/lebron-placeholder.jpg",
-    "athlete": "LeBron James",
-    "type": "lifestyleNews"
+    "title": "Who ROBBED Mike Bibby? Teammate exposed in podcast!",
+    "source": "The OGs Podcast",
+    "date": "2024-07-02",
+    "preview": "NBA Legends and former teammates Udonis Haslem and Mike Miller welcome Heat legend, Mike Bibby!...",
+    "text": "NBA Legends and former teammates Udonis Haslem and Mike Miller welcome Heat legend, Mike Bibby! In the Mike Bibby Podcast, watch the guys talk about Bronny James, getting robbed, untold Miami Heatstories, and much more! This is very juicy and Mike is very specific about the culprit.",
+    "imageURL": "/ogs-bibby.png",
+    "athlete": "Mike Bibby, Udonis Haslem, Mike Miller",
+    "type": "Podcasts",
+    "team": "Miami Heat",
+    "likes": "9",
+    "comments": "7"
   },
   {
     "id": 2,
@@ -15,8 +19,7 @@
     "source": "ESPN",
     "date": "2024-07-02",
     "preview": "NBA star Stephen Curry raises funds for education through a charity golf event…",
-    "imageURL": "/lebron-placeholder.jpg",
-    "athlete": "Stephen Curry",
+    "imageURL": "https://example.com/curry_golf.jpg",
     "type": "lifestyleNews"
   },
   {

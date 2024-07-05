@@ -13,6 +13,7 @@ function App() {
         <PageLayout>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/:athleteId" element={<HomePage />} />
             <Route path="/styles" element={<StylesTemp />} /> {/* REMOVE PRIOR TO DEPLOYMENT */}
           </Routes>
         </PageLayout>

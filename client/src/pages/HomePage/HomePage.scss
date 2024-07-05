@@ -1,3 +1,32 @@
-@import '../../styles/partials/variables.scss';
-@import '../../styles/partials/mixins.scss';
-@import '../../styles/partials/global.scss';
+@import "../../styles/partials/variables.scss";
+@import "../../styles/partials/mixins.scss";
+@import "../../styles/partials/global.scss";
+
+.news {
+  &__page-header {
+    margin-top: 2rem;
+  }
+  &__filter-container {
+    @include flex(center, flex-start);
+    @include responsive-gap;
+    @include responsive-padding-block;
+  }
+  &__filter {
+    border: $border-style;
+    border-radius: 100px;
+    padding: $space-micro $space-small;
+    text-decoration: none;
+  }
+  &__article-header {
+    @include responsive-padding;
+    margin-top: 2rem;
+    background-color: $color-background-header;
+    border-radius: $border-radius $border-radius 0 0;
+  }
+  &__acticle-list {
+    @include flex(stretch, flex-start);
+    flex-direction: column;
+    @include responsive-gap;
+    @include responsive-padding-block;
+  }
+}

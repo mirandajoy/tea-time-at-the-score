@@ -1,0 +1,18 @@
+@import '../../styles/partials/variables.scss';
+@import '../../styles/partials/mixins.scss';
+@import '../../styles/partials/global.scss';
+
+.liveVideo--section {
+    // display: flex; 
+    // justify-content: center;
+    // align-items: center; 
+    width: 100%;
+}
+
+.liveVideo--display {
+    @include responsive-padding;
+    width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,5 +1,6 @@
 import './LiveVideo.scss';
-import videoPreview from '../../assets/images/DeMar_DeRozan.jpeg'
+import videoPreview from '../../assets/images/DeMar_DeRozan.jpeg';
+import viewsIcon from '../../assets/icons/views.svg';
 
 
 function LiveVideo() {
@@ -11,6 +12,11 @@ function LiveVideo() {
             <div className="liveVideo--widget">
                 <p className="liveVideo-widegetText">Live</p>
             </div>
+            <div className="liveVideo--widgetViews">
+                <img className="liveVideo--viewsIcon" src= {viewsIcon} />
+                <p className="liveVideo--viewsNum">500</p>
+            </div>
+
         </div>
     </main>
     )

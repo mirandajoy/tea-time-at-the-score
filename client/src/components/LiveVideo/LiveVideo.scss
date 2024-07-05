@@ -9,10 +9,19 @@
     // align-items: center; 
     position: relative;
     width: 100%;
+
+    @include tablet {
+        width: 60%;
+    }
+
+    @include desktop {
+        width: 50%;
+    }
+
 }
 
 .liveVideo--display {
-    width: 45%;
+    width: 100%;
     height: auto;
     transition: filter 0.3s ease;
     &:hover {
@@ -22,17 +31,38 @@
 }
 
 .liveVideo--widget {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
     background-color: $color-brand-primary;
     justify-content: center;
-    width: 5%;
+    width: 10%;
     position: absolute;
     top: 0;
     left: 0;
+
+    @include tablet {
+        width: 5%;
+    }
+
+    @include desktop {
+        width: 5%;
+    }
+
+    p.liveVideo-widegetText {
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-font-light;
+    }
 }
 
-p.liveVideo-widegetText {
-    text-align: center;
-    text-transform: uppercase;
-    color: $color-font-light;
+.liveVideo--widgetViews {
+    position: absolute;
+    padding-top: 0.5rem;
+    top: 0;
+    right: 0;
+    .liveVideo--viewsIcon, .liveVideo--viewsNum {
+        display: inline;
+        padding-right: 0.5rem;
+        color: $color-font-light;
+    }
 }
+

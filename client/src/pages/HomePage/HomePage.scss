@@ -23,10 +23,13 @@
     background-color: $color-background-header;
     border-radius: $border-radius $border-radius 0 0;
   }
-  &__acticle-list {
-    @include flex(stretch, flex-start);
+  &__article-list {
+    @include flex(flex-start);
     flex-direction: column;
     @include responsive-gap;
     @include responsive-padding-block;
+  }
+  &__article-list-item {
+    width: 100%;
   }
 }

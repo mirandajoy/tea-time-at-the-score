@@ -2,17 +2,67 @@
 @import '../../styles/partials/mixins.scss';
 @import '../../styles/partials/global.scss';
 
-.liveVideo--section {
+.liveVideo--container {
+    // if we want to center live video, use code below//
     // display: flex; 
     // justify-content: center;
     // align-items: center; 
+    position: relative;
     width: 100%;
+
+    @include tablet {
+        width: 60%;
+    }
+
+    @include desktop {
+        width: 50%;
+    }
+
 }
 
 .liveVideo--display {
-    @include responsive-padding;
-    width: 45%;
+    width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    transition: filter 0.3s ease;
+    &:hover {
+        filter: grayscale(100%);
+    }
+    
 }
+
+.liveVideo--widget {
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    background-color: $color-brand-primary;
+    justify-content: center;
+    width: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @include tablet {
+        width: 5%;
+    }
+
+    @include desktop {
+        width: 5%;
+    }
+
+    p.liveVideo-widegetText {
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-font-light;
+    }
+}
+
+.liveVideo--widgetViews {
+    position: absolute;
+    padding-top: 0.5rem;
+    top: 0;
+    right: 0;
+    .liveVideo--viewsIcon, .liveVideo--viewsNum {
+        display: inline;
+        padding-right: 0.5rem;
+        color: $color-font-light;
+    }
+}
+

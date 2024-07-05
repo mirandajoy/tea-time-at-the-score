@@ -5,7 +5,7 @@
     "source": "Sports Illustrated",
     "date": "2024-07-01",
     "preview": "NBA superstar LeBron James continues his philanthropic efforts…",
-    "imageURL": "https://unsplash.com/s/photos/lebron-james",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "LeBron James",
     "type": "lifestyleNews"
   },
@@ -15,7 +15,7 @@
     "source": "ESPN",
     "date": "2024-07-02",
     "preview": "NBA star Stephen Curry raises funds for education through a charity golf event…",
-    "imageURL": "https://example.com/curry_golf.jpg",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "Stephen Curry",
     "type": "lifestyleNews"
   },
@@ -25,7 +25,7 @@
     "source": "Bleacher Report",
     "date": "2024-07-03",
     "preview": "Kevin Durant inspires young athletes at his annual basketball camp…",
-    "imageURL": "https://example.com/durant_camp.jpg",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "Kevin Durant",
     "type": "lifestyleNews"
   },
@@ -35,7 +35,7 @@
     "source": "NBA.com",
     "date": "2024-07-04",
     "preview": "Giannis Antetokounmpo makes a significant donation to a local hospital in Milwaukee…",
-    "imageURL": "https://example.com/giannis_hospital.jpg",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "Giannis Antetokounmpo",
     "type": "lifestyleNews"
   },
@@ -45,7 +45,7 @@
     "source": "ESPN",
     "date": "2024-07-05",
     "preview": "Luka Doncic opens a new basketball academy to train young athletes…",
-    "imageURL": "https://example.com/doncic_academy.jpg",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "Luka Doncic",
     "type": "lifestyleNews"
   },
@@ -55,7 +55,7 @@
     "source": "Sports Illustrated",
     "date": "2024-07-06",
     "preview": "James Harden organizes a community food drive in Philadelphia…",
-    "imageURL": "https://example.com/harden_food_drive.jpg",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "James Harden",
     "type": "lifestyleNews"
   },
@@ -65,7 +65,7 @@
     "source": "Bleacher Report",
     "date": "2024-07-07",
     "preview": "Kawhi Leonard partners with a local charity to support underprivileged youth…",
-    "imageURL": "https://example.com/leonard_charity.jpg",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "Kawhi Leonard",
     "type": "lifestyleNews"
   },
@@ -75,7 +75,7 @@
     "source": "NBA.com",
     "date": "2024-07-08",
     "preview": "Joel Embiid hosts free basketball clinics for kids in Philadelphia…",
-    "imageURL": "https://example.com/embiid_clinics.jpg",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "Joel Embiid",
     "type": "lifestyleNews"
   },
@@ -85,7 +85,7 @@
     "source": "ESPN",
     "date": "2024-07-09",
     "preview": "Damian Lillard launches a music program to support aspiring musicians…",
-    "imageURL": "https://example.com/lillard_music.jpg",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "Damian Lillard",
     "type": "lifestyleNews"
   },
@@ -95,7 +95,7 @@
     "source": "Sports Illustrated",
     "date": "2024-07-10",
     "preview": "Chris Paul advocates for healthy living and hosts a wellness event…",
-    "imageURL": "https://example.com/paul_wellness.jpg",
+    "imageURL": "/lebron-placeholder.jpg",
     "athlete": "Chris Paul",
     "type": "lifestyleNews"
   }

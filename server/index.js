@@ -13,6 +13,7 @@ const __dirname = path.dirname(__filename);
 const { PORT, CROSS_ORIGIN } = process.env;
 
 app.use(cors({ origin: CROSS_ORIGIN }));
+app.use(express.static('public'));
 
 // Endpoint to get all articles
 app.get("/api/articles", (req, res) => {

@@ -2,34 +2,9 @@
 @import "../../styles/partials/mixins.scss";
 @import "../../styles/partials/global.scss";
 
-.news {
-  &__page-header {
-    margin-top: 2rem;
-  }
-  &__filter-container {
-    @include flex(center, flex-start);
-    @include responsive-gap;
-    @include responsive-padding-block;
-  }
-  &__filter {
-    border: $border-style;
-    border-radius: 100px;
-    padding: $space-micro $space-small;
-    text-decoration: none;
-  }
-  &__article-header {
-    @include responsive-padding;
-    margin-top: 2rem;
-    background-color: $color-background-header;
-    border-radius: $border-radius $border-radius 0 0;
-  }
-  &__article-list {
-    @include flex(flex-start);
-    flex-direction: column;
-    @include responsive-gap;
-    @include responsive-padding-block;
-  }
-  &__article-list-item {
-    width: 100%;
-  }
+.home {
+    &__img {
+        max-width: 100%;
+        margin-block: 1.5rem;
+    }
 }

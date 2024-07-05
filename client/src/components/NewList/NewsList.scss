@@ -1,0 +1,24 @@
+@import "../../styles/partials/variables.scss";
+@import "../../styles/partials/mixins.scss";
+@import "../../styles/partials/global.scss";
+
+.news {
+  &__page-header {
+    margin-top: 2rem;
+  }
+  &__header {
+    @include responsive-padding;
+    margin-top: 2rem;
+    background-color: $color-background-header;
+    border-radius: $border-radius $border-radius 0 0;
+  }
+  &__article-list {
+    @include flex(flex-start);
+    flex-direction: column;
+    // @include responsive-gap;
+    // @include responsive-padding-block;
+  }
+  &__article-list-item {
+    width: 100%;
+  }
+}

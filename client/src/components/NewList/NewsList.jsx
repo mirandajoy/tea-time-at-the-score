@@ -20,19 +20,13 @@ function NewsList() {
     getArticles();
   }, []);
   return (
-    <aside>
+    <aside className="news">
       <LiveVideo />
-      <h3 className="header header--bold news__header">
-        Top Insider Articles
-      </h3>
+      <h3 className="header header--bold header--uppercase news__header">Top Insider Articles</h3>
       <ul className="news__article-list">
         {articleList &&
           articleList.map((article) => {
-            return (
-              <li key={article.id} className="news__article-list-item">
-                <ArticlePreview article={article} />
-              </li>
-            );
+            return <ArticlePreview article={article} key={article.id} />;
           })}
       </ul>
     </aside>

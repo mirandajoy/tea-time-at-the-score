@@ -4,23 +4,63 @@
 
 .preview {
     @include responsive-padding;
-    @include flex;
-    @include responsive-gap;
-    border-radius: $border-radius;
-    border: $border-style;
+    @include flex(flex-start);
+    row-gap: $space-standard;
+    border-bottom: $border-style-dark;
+    background-color: $color-background-content-med;
+    box-sizing: border-box;
+    &:last-child {
+        border-bottom: none;
+        border-radius: 0 0 $border-radius $border-radius;
+    }
+    &__image-container {
+        max-width: 36%;
+        position: relative;
+    }
+    &__league-tag {
+        background-color: $color-brand-primary;
+        border-radius: $border-radius;
+        color: $color-font-light;
+        font-size: $font-size-body-micro;
+        font-weight: $weight-demi;
+        position: absolute;
+        padding: 0.125rem $space-small;
+        top: 0.25rem;
+        left: 0.25rem;
+    }
     &__image {
-        max-width: 10rem;
+        width: 100%;
+        border-radius: $border-radius;
     }
     &__content {
-        width: 80%;
+        width: 60%;
     }
     &__title {
         padding-bottom: $space-small;
+    }
+    &__action-container {
+        @include flex;
+        width: 100%;
+    }
+    &__icon-wrapper {
+        @include flex;
+        gap: $space-standard;
+    }
+    &__icon-container {
+        @include flex (center, flex-start);
+        gap: $space-micro;
+    }
+    &__icon {
+        max-width: 0.75rem;
     }
     &__link {
         display: block;
         color: $color-brand-primary;
         font-size: $font-size-body-small;
-        padding-top: $space-small;
+        text-decoration: none;
+        font-weight: $weight-bold;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }

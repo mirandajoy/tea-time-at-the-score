@@ -3,6 +3,16 @@
 @import "../../styles/partials/global.scss";
 
 .news {
+  &__features {
+    @include flex;
+    gap: $space-standard;
+    flex-wrap: nowrap;
+    padding-bottom: 1.5rem;
+  }
+  &__banner {
+    display: block;
+    width: 33%
+  }
   &__header {
     @include responsive-padding;
     background-color: $color-background-header;

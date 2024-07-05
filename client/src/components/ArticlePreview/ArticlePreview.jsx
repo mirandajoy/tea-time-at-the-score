@@ -26,7 +26,7 @@ function ArticlePreview({ article }) {
           <div className="preview__icon-container">
             <img className="preview__icon" src={chat} />
             <span className="body body--micro">
-              {article.comments} comments{" "}
+              {article.comments} Comments{" "}
             </span>
           </div>
           <div className="preview__icon-container">

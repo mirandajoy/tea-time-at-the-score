@@ -13,6 +13,8 @@ function NewsList() {
     preview:
       "One of the NBA’s most intriguing remaining free agents is living it up...",
     imageURL: "/kendrick_derozan.png",
+    comments: "430",
+    likes: "780"
   };
 
   async function getArticles() {

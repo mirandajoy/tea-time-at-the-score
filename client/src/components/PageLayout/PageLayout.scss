@@ -1,0 +1,9 @@
+@import "../../styles/partials/variables.scss";
+@import "../../styles/partials/mixins.scss";
+@import "../../styles/partials/global.scss";
+
+.pg-layout {
+  @include responsive-padding;
+  max-width: $max-content-width;
+  margin-inline: auto;
+}

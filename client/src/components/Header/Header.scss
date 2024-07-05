@@ -1,0 +1,16 @@
+@import '../../styles/partials/variables.scss';
+@import '../../styles/partials/mixins.scss';
+@import '../../styles/partials/global.scss';
+
+.nav {
+    background-color: $color-background-header;
+    &__content {
+        @include responsive-padding;
+        max-width: $max-content-width;
+        margin-inline: auto;
+    }
+    &__logo {
+        max-height: 1.25rem;
+        display: block;
+    }
+}

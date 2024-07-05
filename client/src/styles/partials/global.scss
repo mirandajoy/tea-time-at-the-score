@@ -1,0 +1,68 @@
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: $color-background-page;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+}
+
+.body {
+  font-size: $font-size-body;
+  font-weight: $weight-regular;
+  line-height: calc($font-size-body * 1.2);
+  &--light {
+    color: $color-font-light;
+  }
+  &--dark {
+    color: $color-font-dark;
+  }
+  &--small {
+    color: $color-font-med;
+    font-size: $font-size-body-small;
+  }
+  &--micro {
+    color: $color-font-med;
+    font-size: $font-size-body-micro;
+  }
+}
+
+.header {
+  font-weight: $weight-regular;
+  color: $color-font-light;
+  &--primary {
+    font-size: $font-size-header-primary;
+    line-height: calc($font-size-header-primary * 1.2);
+  }
+  &--secondary {
+    font-size: $font-size-header-secondary;
+    line-height: calc($font-size-header-secondary * 1.2);
+  }
+  &--bold {
+    color: $color-font-med;
+    font-size: $font-size-header-secondary;
+    font-weight: $weight-bold;
+    line-height: calc($font-size-header-secondary * 1.2);
+  }
+}
+
+.label {
+  color: $color-font-med;
+  font-size: $font-size-label;
+  font-weight: $weight-bold;
+  line-height: calc($font-size-label * 1.2);
+  &--button {
+    color: $color-font-light;
+  }
+  &--uppercase {
+    text-transform: uppercase;
+  }
+}

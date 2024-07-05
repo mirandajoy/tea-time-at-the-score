@@ -1,0 +1,46 @@
+//Colours
+$color-brand-primary: #006dff;
+
+$color-font-dark: #3A3D40;
+$color-font-med: #f9f9f9;
+$color-font-light: #ffffff;
+
+$color-background-page: #000000;
+$color-background-header: #1e1f21;
+$color-background-content-med: #1e1f21;
+$color-background-content-light: #1e1f21;
+
+$color-success: #18B44A;
+$color-error: #E54827;
+
+//Font Styles
+$font-size-header-primary: 1.5rem;
+$font-size-header-secondary: 1rem;
+$font-size-body: 1rem;
+$font-size-body-small: .8125rem;
+$font-size-body-micro: .75rem;
+$font-size-button: .875rem;
+$font-size-label: .875rem;
+
+//Font Weight
+$weight-regular: 400;
+$weight-bold: 700;
+
+//Spacing
+$space-micro: 0.25rem;
+$space-small: 0.5rem;
+$space-standard-mobile: 1rem;
+$space-standard: 1.5rem;
+$space-large-mobile: 1.5rem;
+$space-large: 2.25rem;
+
+//Other Styles
+$border-radius: 4px;
+$border-style: 1px solid $color-font-med;
+
+//Layout
+$max-content-width: 1080px;
+
+//Breakpoints
+$tablet: 768px;
+$desktop: 1280px;

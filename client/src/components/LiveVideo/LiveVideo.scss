@@ -10,9 +10,11 @@
     width: 100%;
 }
 
+
 .liveVideo--display {
     width: 100%;
     height: auto;
+    cursor: pointer;
     transition: filter 0.3s ease;
     object-fit: cover;
     aspect-ratio: 16 / 9;

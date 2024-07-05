@@ -10,9 +10,11 @@
     position: relative;
 }
 
+
 .liveVideo--display {
     width: 100%;
     height: auto;
+    cursor: pointer;
     transition: filter 0.3s ease;
     &:hover {
         filter: grayscale(100%);

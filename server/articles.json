@@ -1,6 +1,53 @@
 {
   "athletes": [
     {
+      "id": 2,
+      "name": "Other",
+      "team": "Los Angeles Lakers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "lifestyleNews": [
+        {
+          "id": 101,
+          "title": "Other",
+          "source": "Sports Illustrated",
+          "date": "2024-07-01",
+          "preview": "NBA superstar Other continues his philanthropic efforts…",
+          "imageURL": "https://example.com/lebron_school.jpg"
+        }
+      ],
+      "upcomingEvents": [
+        {
+          "id": 201,
+          "title": "Other",
+          "date": "2024-07-10",
+          "time": "20:00:00",
+          "description": "Join Other as he revisits his most memorable NBA moments",
+          "thumbnailURL": "https://example.com/lebron_highlight_thumbnail.jpg"
+        }
+      ],
+      "liveEvents": [
+        {
+          "id": 301,
+          "title": "Other",
+          "host": "Other",
+          "date": "2024-07-10",
+          "time": "20:00:00",
+          "description": "Join Other as he provides commentary on the historic 2016 NBA Finals",
+          "viewCount": 500000,
+          "chatEnabled": true,
+          "chatMessages": [
+            {
+              "userID": 12345,
+              "username": "BasketballFan23",
+              "message": "That block in Game 7 was incredible!",
+              "timestamp": "2024-07-10 20:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 1,
       "name": "LeBron James",
       "team": "Los Angeles Lakers",
@@ -47,6 +94,7 @@
         }
       ]
     }
+
   ],
   "userPreferences": {
     "userId": 12345,

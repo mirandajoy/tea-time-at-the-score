@@ -58,3 +58,52 @@
 .shareLinks {
     width: 40%;
 }
+
+.comments {
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 1rem;
+
+    &__title {
+        font-weight: 500;
+        padding-top: 0.5rem;
+    }
+
+    &__count {
+        font-weight: 600;
+        padding: 0.5rem 0rem;
+    }
+
+    &__cta {
+        padding: 0.5rem 0rem 1rem;
+    }
+
+    &__field {
+        border-radius: $border-radius;
+        border: 1px solid black;
+        background-color: white;
+        padding: 0.5rem;
+        color: $color-font-dark;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__button {
+        border-radius: $border-radius;
+        border: 1px solid black;
+        background-color: white;
+        padding: 0rem 0.25rem;
+        color: $color-font-dark;
+    }
+
+    &__body {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 1rem 0rem;
+    }
+
+    &__image {
+        width: 100%;
+    }
+}

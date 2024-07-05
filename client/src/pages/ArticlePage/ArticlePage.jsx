@@ -1,5 +1,6 @@
 import "./ArticlePage.scss";
-import socialMedia from "../../../public/images/social-media.png"
+import socialMedia from "../../../public/images/social-media.png";
+import comments from "../../../public/images/comments.png";
 
 function ArticlePage() {
 
@@ -9,7 +10,7 @@ function ArticlePage() {
                 <h1 className="hero__title">DeMar DeRozan makes surprise cameo in Kendrick Lamar’s ‘Not Like Us’ video as Lakers rumors swirl</h1>
                 <div>
                     <h4 className="hero__subtitle">Bradley Locker via New York Post</h4>
-                    <p className="hero__time">1h ago</p>
+                    <p className="hero__time">4h ago</p>
                 </div>
                 
             </div>
@@ -32,6 +33,18 @@ function ArticlePage() {
                     <img className="shareLinks" src={socialMedia} alt="social media links" />
                 </div>
             </article>
+            <section className="comments">
+                <h2 className="comments__title">Conversation</h2>
+                <h4 className="comments__count">2 comments</h4>
+                <p className="comments__cta">Share your stance. Please adhere to our guidelines.</p>
+                <div className="comments__field">
+                    <p>Join the conversation</p>
+                    <button className="comments__button">Post</button>
+                </div>
+                <div className="comments__body">
+                    <img className="comments__image" src={comments} alt="comments for article" />
+                </div>
+            </section>
         </main>
     )
 }

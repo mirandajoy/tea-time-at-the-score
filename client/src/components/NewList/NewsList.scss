@@ -3,7 +3,6 @@
 @import "../../styles/partials/global.scss";
 
 .news {
-  @include responsive-padding-block;
   &__header {
     @include responsive-padding;
     background-color: $color-background-header;

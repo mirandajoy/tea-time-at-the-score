@@ -7,14 +7,14 @@
   @include flex(flex-start);
   @include responsive-gap;
   max-width: $max-content-width;
-  margin-inline: auto;
+  margin: 1.5rem auto;
   &__main {
-    max-width: 67%;
+    max-width: 60%;
     overflow-y: scroll;
     height: 90vh;
   }
   &__sidebar {
-    max-width: 30%;
+    max-width: 37%;
     overflow-y: scroll;
     height: 90vh;
   }
